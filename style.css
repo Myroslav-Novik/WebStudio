@@ -1,0 +1,121 @@
+:root {
+    /* --header-background-color: rgba(255, 255, 255, 1); */
+
+    --header-logo-web-color: rgba(33, 150, 243, 1);
+    --header-logo-studio-color: rgba(0, 0, 0, 1);
+
+    --nav-list-color: rgba(33, 33, 33, 1);
+    --nav-list-hover: rgba(33, 150, 243, 1);
+
+    --contacts-list-color: rgba(117, 117, 117, 1);
+    --contacts-list-hover: rgba(33, 150, 243, 1);
+
+    --hero-background-color: rgba(47, 48, 58, 1);
+
+    --hero-title-color: rgba(255, 255, 255, 1);
+
+    --hero-btn-color: rgba(33, 150, 243, 1);
+    --hero-btn-hover: rgba(24, 140, 232, 1); 
+
+    /* --features-background-color: rgba(255, 255, 255, 1); */
+
+    --features-list-title-color: rgba(33, 33, 33, 1);
+
+    --features-list-description-color: rgba(117, 117, 117, 1);
+
+    --work-title-color: rgba(33, 33, 33, 1);
+
+    --team-title-color: rgba(33, 33, 33, 1);
+}
+
+body {
+    font-family: Roboto;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.header-logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+/* .web  */
+
+/* .studio */
+
+/* .nav-list-item */
+
+.nav-list-link {
+    /* font-family: Roboto; */
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+/* .contacts-list-item */
+
+.contacts-list-link {
+    /* font-family: Roboto; */
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+/* .hero */
+
+.hero-title {
+    /* font-family: Roboto; */
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.hero-btn {
+    /* font-family: Roboto; */
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+/* .features-list */
+
+/* .features-list-item */
+
+.features-list-title {
+    /* font-family: Roboto; */
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.features-list-description {
+    /* font-family: Roboto; */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.work-title {
+    /* font-family: Roboto; */
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
