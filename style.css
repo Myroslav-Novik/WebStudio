@@ -25,12 +25,24 @@
 
     --work-title-color: rgba(33, 33, 33, 1);
 
+    --team-background-color: rgba(245, 244, 250, 1);
+
     --team-title-color: rgba(33, 33, 33, 1);
+
+    --team-list-title-color: rgba(33, 33, 33, 1);
+
+    --team-list-description-color: rgba(117, 117, 117, 1);
+
+    --footer-background-color: rgba(47, 48, 58, 1);
+
+    --footer-logo-web-color: rgba(33, 150, 243, 1);
+    --footer-logo-studio-color: rgba(255, 255, 255, 1);
+
+    --address-list-link-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
     font-family: Roboto;
-    background-color: rgba(255, 255, 255, 1);
 }
 
 .header-logo {
@@ -42,36 +54,27 @@ body {
     text-align: left;
 }
 
-/* .web  */
+/* .header-logo-web  */
 
-/* .studio */
-
-/* .nav-list-item */
+/* .header-logo-studio */
 
 .nav-list-link {
-    /* font-family: Roboto; */
     font-size: 14px;
     font-weight: 500;
-    line-height: 1.1;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
 }
-
-/* .contacts-list-item */
 
 .contacts-list-link {
-    /* font-family: Roboto; */
     font-size: 14px;
     font-weight: 500;
-    line-height: 1.1;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
 }
 
-/* .hero */
-
 .hero-title {
-    /* font-family: Roboto; */
     font-size: 44px;
     font-weight: 900;
     line-height: 1.4;
@@ -80,7 +83,6 @@ body {
 }
 
 .hero-btn {
-    /* font-family: Roboto; */
     font-size: 16px;
     font-weight: 700;
     line-height: 1.9;
@@ -88,12 +90,7 @@ body {
     text-align: center;
 }
 
-/* .features-list */
-
-/* .features-list-item */
-
 .features-list-title {
-    /* font-family: Roboto; */
     font-size: 14px;
     font-weight: 700;
     line-height: 1.2;
@@ -102,7 +99,6 @@ body {
 }
 
 .features-list-description {
-    /* font-family: Roboto; */
     font-size: 14px;
     font-weight: 400;
     line-height: 1.7;
@@ -111,7 +107,6 @@ body {
 }
 
 .work-title {
-    /* font-family: Roboto; */
     font-size: 36px;
     font-weight: 700;
     line-height: 1.2;
@@ -119,3 +114,47 @@ body {
     text-align: center;
 }
 
+.team-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.team-list-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.team-list-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.footer-logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+/* .footer-logo-web */
+
+/* .footer-logo-studio */
+
+.address-list-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
