@@ -17,3 +17,12 @@ ul {
     margin-left: 0;
     padding-left: 0;
 }
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: 0;
+    outline: 0;
+}
