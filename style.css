@@ -185,6 +185,7 @@ body {
 
 .footer {
     background-color: var(--footer-background-color);
+    padding: 60px 0;
 }
 
 .footer-logo {
