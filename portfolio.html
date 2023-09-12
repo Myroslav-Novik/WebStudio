@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <!-- modern-normalize -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" 
+                           integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- reset -->
     <link rel="stylesheet" href="./reset.css">
     <!-- css -->
@@ -21,7 +22,8 @@
 <body>
     <header class="header">
         <div class="container">
-            <a href="" class="header-logo"><span class="header-logo-web">Web</span><span class="header-logo-studio">Studio</span></a>
+            <div class="header-content-wrap">
+                <a href="" class="header-logo"><span class="header-logo-web">Web</span><span class="header-logo-studio">Studio</span></a>
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-list-item"><a href="./index.html" class="nav-list-link">Студія</a></li>
@@ -34,16 +36,17 @@
                     info@devstudio.com</a></li>
                 <li class="contacts-list-item"><a href="tel:+38 096 111 11 11" class="contacts-list-link">+38 096 111 11 11</a></li>
             </ul>
+            </div>
         </div>
     </header>
     <main class="main">
         <div class="container">
             <ul class="filters-list">
-                <li class="filters-list-item"><button class="filters-list-btn">Усі</button></li>
-                <li class="filters-list-item"><button class="filters-list-btn">Веб-сайти</button></li>
-                <li class="filters-list-item"><button class="filters-list-btn">Додатки</button></li>
-                <li class="filters-list-item"><button class="filters-list-btn">Дизайн</button></li>
-                <li class="filters-list-item"><button class="filters-list-btn">Маркетинг</button></li>
+                <li class="filters-list-item"><button class="filters-list-btn filter-btn-1">Усі</button></li>
+                <li class="filters-list-item"><button class="filters-list-btn filter-btn-2">Веб-сайти</button></li>
+                <li class="filters-list-item"><button class="filters-list-btn filter-btn-3">Додатки</button></li>
+                <li class="filters-list-item"><button class="filters-list-btn filter-btn-4">Дизайн</button></li>
+                <li class="filters-list-item"><button class="filters-list-btn filter-btn-5">Маркетинг</button></li>
             </ul>
             <ul class="projects-list">
                 <li class="projects-list-item">

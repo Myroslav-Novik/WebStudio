@@ -1,4 +1,7 @@
 :root {
+
+    /* header */
+
     --header-logo-web-color: rgba(33, 150, 243, 1);
     --header-logo-studio-color: rgba(0, 0, 0, 1);
 
@@ -8,6 +11,8 @@
     --contacts-list-color: rgba(117, 117, 117, 1);
     --contacts-list-hover: rgba(33, 150, 243, 1);
 
+    /* main */
+
     --filters-list-btn-color: rgba(33, 33, 33, 1);
     --filters-list-btn-background-color: rgba(245, 244, 250, 1);
     --filters-list-btn-hover: rgba(255, 255, 255, 1);
@@ -15,6 +20,8 @@
 
     --projects-list-title-color: rgba(33, 33, 33, 1);
     --projects-list-description-color: rgba(117, 117, 117, 1);
+
+    /* footer */
 
     --footer-background-color: rgba(47, 48, 58, 1);
 
@@ -27,6 +34,17 @@
 
 body {
     font-family: Roboto;
+}
+
+.header {
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+
+.header-content-wrap {
+    display: flex;
+    align-items: center;
+    gap: 93px;
+    height: 80px;
 }
 
 .header-logo {
@@ -46,6 +64,11 @@ body {
     color: var(--header-logo-studio-color);
 }
 
+.nav-list {
+    display: flex;
+    gap: 50px;
+}
+
 .nav-list-link {
     color: var(--nav-list-color);
     font-size: 14px;
@@ -57,6 +80,12 @@ body {
 
 .nav-list-link:hover {
     color: var(--nav-list-hover);
+}
+
+.contacts-list {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
 }
 
 .contacts-list-link {
@@ -76,6 +105,13 @@ body {
     padding: 94px 0;
 }
 
+.filters-list {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
 .filters-list-btn {
     color: var(--filters-list-btn-color);
     background-color: var(--filters-list-btn-background-color);
@@ -84,6 +120,8 @@ body {
     line-height: 1.6;
     letter-spacing: 0.03em;
     text-align: center;
+    border-radius: 4px;
+    height: 38px;
 }
 
 .filters-list-btn:hover {
@@ -91,8 +129,41 @@ body {
     background-color: var(--filters-list-btn-background-hover);
 }
 
+.filter-btn-1 {
+    padding: 6px 25px;
+}
+
+.filter-btn-2 {
+    padding: 6px 22px;
+}
+
+.filter-btn-3 {
+    padding: 6px 22px;
+}
+
+.filter-btn-4 {
+    padding: 6px 22px;
+}
+
+.filter-btn-5 {
+    padding: 6px 22px;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
 .projects-list-item {
-    border: 1px solid rgba(238, 238, 238, 1)
+    width: 370px;
+    height: 404px;
+    border: 1px solid rgba(238, 238, 238, 1);
+}
+
+.projects-list-img {
+    width: 370px;
+    height: 294px;
 }
 
 .projects-list-title {
@@ -102,6 +173,7 @@ body {
     line-height: 2.0;
     letter-spacing: 0.06em;
     text-align: left;
+    padding: 20px 24px 0 20px;
 }
 
 .projects-list-description {
@@ -111,6 +183,7 @@ body {
     line-height: 1.9;
     letter-spacing: 0.03em;
     text-align: left;
+    padding: 0 24px 20px 24px;
 }
 
 .footer {
@@ -125,6 +198,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-align: left;
+    margin-bottom: 20px;
 }
 
 .footer-logo-web {
@@ -135,7 +209,12 @@ body {
     color: var(--footer-logo-studio-color);
 }
 
+.address-list-item {
+    margin-bottom: 9px;
+}
+
 .address-list-link {
+    font-style: normal;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.7;
