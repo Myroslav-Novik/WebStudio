@@ -156,9 +156,8 @@ body {
 }
 
 .projects-list-item {
-    width: 370px;
-    height: 404px;
-    border: 1px solid rgba(238, 238, 238, 1);
+    flex-basis: calc((100% - 60px) / 3);
+    outline: 1px solid rgba(238, 238, 238, 1);
 }
 
 .projects-list-img {
@@ -214,7 +213,6 @@ body {
 }
 
 .address-list-link {
-    font-style: normal;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.7;

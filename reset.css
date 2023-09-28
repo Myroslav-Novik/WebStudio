@@ -27,3 +27,7 @@ button {
     outline: 0;
     cursor: pointer;
 }
+
+address {
+    font-style: normal;
+}
