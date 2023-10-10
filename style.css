@@ -151,18 +151,46 @@ body {
     padding-top: 94px;
 }
 
-.features-content-wrap {
-    justify-content: space-between;
-    gap: 30px;
-}
-
 .features-list {
     display: flex;
     gap: 30px;
+    justify-content: space-between;
 }
 
 .features-list-item {
     width: 270px;
+}
+
+.attention::before {
+    content: "";
+    background-image: url(./images/WS-antenna.jpg);
+    width: 270px;
+    height: 120px;
+    display: inline-block;
+}
+
+.punctuality::before {
+    content: "";
+    background-image: url(./images/WS-clock.jpg);
+    width: 270px;
+    height: 120px;
+    display: inline-block;
+}
+
+.planning::before {
+    content: "";
+    background-image: url(./images/WS-computer.jpg);
+    width: 270px;
+    height: 120px;
+    display: inline-block;
+}
+
+.technology::before {
+    content: "";
+    background-image: url(./images/WS-astronaut.jpg);
+    width: 270px;
+    height: 120px;
+    display: inline-block;
 }
 
 .features-list-title {
@@ -172,6 +200,8 @@ body {
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-align: left;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .features-list-description {
@@ -180,7 +210,6 @@ body {
     font-weight: 400;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    text-align: left;
 }
 
 .work {
