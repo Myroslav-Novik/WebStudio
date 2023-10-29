@@ -127,6 +127,7 @@ body {
 .filters-list-btn:hover {
     color: var(--filters-list-btn-hover);
     background-color: var(--filters-list-btn-background-hover);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .filter-btn-1 {
@@ -158,6 +159,12 @@ body {
 .projects-list-item {
     flex-basis: calc((100% - 60px) / 3);
     outline: 1px solid rgba(238, 238, 238, 1);
+}
+
+/* Поки що зробив через :hover */
+
+.projects-list-item:hover {
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .projects-list-img {

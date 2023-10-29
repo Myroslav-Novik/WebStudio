@@ -163,7 +163,7 @@ body {
 
 .attention::before {
     content: "";
-    background-image: url(./images/WS-antenna.jpg);
+    background-image: url(./images/ws-antenna.jpg);
     width: 270px;
     height: 120px;
     display: inline-block;
@@ -171,7 +171,7 @@ body {
 
 .punctuality::before {
     content: "";
-    background-image: url(./images/WS-clock.jpg);
+    background-image: url(./images/ws-clock.jpg);
     width: 270px;
     height: 120px;
     display: inline-block;
@@ -179,7 +179,7 @@ body {
 
 .planning::before {
     content: "";
-    background-image: url(./images/WS-computer.jpg);
+    background-image: url(./images/ws-computer.jpg);
     width: 270px;
     height: 120px;
     display: inline-block;
@@ -187,7 +187,7 @@ body {
 
 .technology::before {
     content: "";
-    background-image: url(./images/WS-astronaut.jpg);
+    background-image: url(./images/ws-astronaut.jpg);
     width: 270px;
     height: 120px;
     display: inline-block;
@@ -224,7 +224,7 @@ body {
     letter-spacing: 0.03em;
     text-align: center;
     display: block;
-    margin: 0 auto 50 auto;
+    margin: 0 auto 50px auto;
 }
 
 .work-list {
@@ -260,6 +260,10 @@ body {
     background-color: var(--team-cards-background-color);
     width: 270px;
     height: 368px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 
+                0px 1px 1px 0px rgba(0, 0, 0, 0.14), 
+                0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .team-list-img {
